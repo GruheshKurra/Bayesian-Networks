@@ -1,0 +1,40 @@
+{
+  "model_type": "Discrete Bayesian Network",
+  "dataset": "Iris (discretized)",
+  "nodes": [
+    "Species",
+    "Sepal_Length",
+    "Sepal_Width",
+    "Petal_Length",
+    "Petal_Width"
+  ],
+  "edges": [
+    [
+      "Species",
+      "Sepal_Length"
+    ],
+    [
+      "Species",
+      "Sepal_Width"
+    ],
+    [
+      "Species",
+      "Petal_Length"
+    ],
+    [
+      "Species",
+      "Petal_Width"
+    ],
+    [
+      "Petal_Length",
+      "Petal_Width"
+    ]
+  ],
+  "accuracy": 0.8444444444444444,
+  "data_shape": [
+    150,
+    5
+  ],
+  "num_parameters": 57,
+  "inference_scenarios": 4
+}

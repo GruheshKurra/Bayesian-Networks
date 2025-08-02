@@ -1,0 +1,66 @@
+{
+  "large_petals": {
+    "evidence": {
+      "Petal_Length": 2,
+      "Petal_Width": 2
+    },
+    "probabilities": [
+      0.0,
+      0.04347826086956522,
+      0.9565217391304348
+    ],
+    "species_names": [
+      "Setosa",
+      "Versicolor",
+      "Virginica"
+    ]
+  },
+  "small_petals": {
+    "evidence": {
+      "Petal_Length": 0,
+      "Petal_Width": 0
+    },
+    "probabilities": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "species_names": [
+      "Setosa",
+      "Versicolor",
+      "Virginica"
+    ]
+  },
+  "medium_sepals": {
+    "evidence": {
+      "Sepal_Length": 1,
+      "Sepal_Width": 1
+    },
+    "probabilities": [
+      0.12443438914027151,
+      0.6312217194570137,
+      0.24434389140271492
+    ],
+    "species_names": [
+      "Setosa",
+      "Versicolor",
+      "Virginica"
+    ]
+  },
+  "mixed_features": {
+    "evidence": {
+      "Sepal_Length": 2,
+      "Petal_Length": 0
+    },
+    "probabilities": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "species_names": [
+      "Setosa",
+      "Versicolor",
+      "Virginica"
+    ]
+  }
+}
